@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prajwal Krishnappa — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+  <script src="portfolio.js"></script>
+
+</head>
+<body>
+
+  <div class="scanlines"></div>
+  <div class="grain"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <!-- <div class="nav-logo">&lt;PK /&gt;</div> -->
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <h1 class="hero-name">Prajwal<br><span class="accent">Krishnappa</span></h1>
+      <p class="hero-role">
+        <span class="role-prefix">&gt;_</span>
+        <span class="typed-text" id="typed"></span>
+        <span class="cursor-blink">|</span>
+      </p>
+      <p class="hero-summary">
+        Software Engineer · 2.5+ yrs · Python Full-Stack · ERPNext/Frappe · Django · ERP Integrations
+      </p>
+      <div class="hero-cta">
+        <a href="#experience" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-side">
+
+  <div class="hero-profile">
+      <img src="images/profile.png" alt="Prajwal Krishnappa">
+  </div>
+
+    <div class="hero-terminal">
+      <div class="terminal-bar">
+        <span class="dot red"></span>
+        <span class="dot yellow"></span>
+        <span class="dot green"></span>
+        <span class="terminal-title">prajwal@portfolio:~</span>
+      </div>
+      <div class="terminal-body" id="terminal-body">
+        <p><span class="t-prompt">$</span> whoami</p>
+        <p class="t-out">prajwal_krishnappa</p>
+        <p><span class="t-prompt">$</span> cat skills.txt</p>
+        <p class="t-out">Python · Django · Frappe · ERPNext</p>
+        <p class="t-out">REST API · JS · SQL · Git · Linux</p>
+        <p><span class="t-prompt">$</span> cat experience.txt</p>
+        <p class="t-out">Hybrowlabs Technologies — Present</p>
+        <p class="t-out">NewJaisa Technologies — 2023-2025</p>
+        <p><span class="t-prompt">$</span> <span class="cursor-blink">█</span></p>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>scroll</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label"> ABOUT</div>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2>I build <span class="accent">ERP systems</span> & web apps that actually work.</h2>
+        <p>
+          With 2.5+ years of hands-on experience, I specialise in ERPNext/Frappe customisation,
+          Django web applications, and deep ERP integrations for manufacturing, procurement,
+          and QA automation across healthcare and refurbishment industries.
+        </p>
+        <p>
+          I have a Mechanical Engineering degree — which means I think in systems,
+          processes, and end-to-end workflows before writing a single line of code.
+        </p>
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-num">2.5+</span>
+            <span class="stat-label">Years XP</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">40+</span>
+            <span class="stat-label">FG Products<br>Automated</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Major<br>Modules Built</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-card">
+        <div class="card-inner">
+          <div class="card-avatar">PK</div>
+          <div class="card-info">
+            <p><span class="label">Role</span> Software Engineer</p>
+            <p><span class="label">Location</span> Bengaluru, IN</p>
+            <p><span class="label">Stack</span> Python · Frappe · Django</p>
+            <p><span class="label">Focus</span> ERP · Integrations · Backend</p>
+            <p><span class="label">Education</span> B.E Mechanical, MVIT</p>
+          </div>
+          <div class="card-links">
+            <a href="https://github.com/" target="_blank" class="card-link">GitHub ↗</a>
+            <a href="https://linkedin.com/" target="_blank" class="card-link">LinkedIn ↗</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label"> SKILLS</div>
+    <h2>Technical <span class="accent">Arsenal</span></h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h3>Languages & Frameworks</h3>
+        <div class="skill-tags">
+          <span class="tag">Python</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">Frappe / ERPNext</span>
+          <span class="tag">Django</span>
+          <span class="tag">REST API</span>
+          <span class="tag">PyQt5</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Frontend</h3>
+        <div class="skill-tags">
+          <span class="tag">HTML5</span>
+          <span class="tag">CSS3</span>
+          <span class="tag">Jinja2 Templates</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Database</h3>
+        <div class="skill-tags">
+          <span class="tag">MySQL</span>
+          <span class="tag">MariaDB</span>
+          <span class="tag">SQL</span>
+        </div>
+      </div>
+      <div class="skill-group">
+        <h3>Tools & DevOps</h3>
+        <div class="skill-tags">
+          <span class="tag">Git & GitHub</span>
+          <span class="tag">Postman</span>
+          <span class="tag">Linux</span>
+          <span class="tag">API Integration</span>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="skill-bars">
+      <div class="bar-item">
+        <div class="bar-label"><span>Python / Django</span><span>90%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="--w:90%"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>ERPNext / Frappe</span><span>88%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="--w:88%"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>REST API Integration</span><span>85%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="--w:85%"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>SQL / MariaDB</span><span>78%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="--w:78%"></div></div>
+      </div>
+      <div class="bar-item">
+        <div class="bar-label"><span>JavaScript</span><span>65%</span></div>
+        <div class="bar-track"><div class="bar-fill" style="--w:65%"></div></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Projects -->
+
+
+  <!-- PROJECTS -->
+<section id="projects">
+  <div class="section-label">PROJECTS</div>
+  <h2>Featured <span class="accent">Projects</span></h2>
+
+  <div class="projects-grid">
+
+    <!-- Project 1 -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-icon">🏭</span>
+        <h3>Electronic Batch Manufacturing Record (eBMR) System</h3>
+      </div>
+
+      <p class="project-desc">
+        Designed and developed an end-to-end Electronic Batch Manufacturing
+        Record (eBMR) solution in ERPNext/Frappe, automating the complete
+        manufacturing lifecycle from Production Planning to Quality Control
+        and batch release.
+      </p>
+
+      <ul class="project-features">
+        <li>Automated Production Plan → Work Order → Job Card creation</li>
+        <li>Implemented serial number genealogy and batch traceability</li>
+        <li>Managed solution and intermediate material consumption</li>
+        <li>Generated dynamic consolidated Batch Manufacturing Records</li>
+        <li>Built configurable workflows and approval processes</li>
+        <li>Enabled compliance-ready manufacturing documentation</li>
+      </ul>
+
+      <div class="project-tags">
+        <span>ERPNext</span>
+        <span>Frappe</span>
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>MariaDB</span>
+        <span>Manufacturing</span>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="project-card">
+      <div class="project-header">
+        <span class="project-icon">🤖</span>
+        <h3>Robot Tracking & Device History Management System</h3>
+      </div>
+
+      <p class="project-desc">
+        Developed a complete lifecycle tracking platform for manufactured
+        robots, enabling production, dispatch, deployment, software
+        installation, surgery activity tracking, and service management.
+      </p>
+
+      <ul class="project-features">
+        <li>Built comprehensive Device History Record (DHR)</li>
+        <li>Tracked robot lifecycle from production to deployment</li>
+        <li>Implemented surgery activity monitoring workflows</li>
+        <li>Integrated service ticket and support management</li>
+        <li>Maintained end-to-end operational traceability</li>
+        <li>Centralized post-sales service records</li>
+      </ul>
+
+      <div class="project-tags">
+        <span>ERPNext</span>
+        <span>Frappe</span>
+        <span>Python</span>
+        <span>JavaScript</span>
+        <span>MariaDB</span>
+        <span>Healthcare</span>
+      </div>
+    </div>
+
+
+    <!-- Project 3 -->
+<div class="project-card">
+  <div class="project-header">
+    <span class="project-icon">💻</span>
+    <h3>Laptop Refurbishment QA & Testing System</h3>
+  </div>
+
+  <p class="project-desc">
+    Developed a Django-based Quality Assurance platform for refurbished
+    laptops, enabling automated hardware validation, grading, evidence
+    collection, and ERPNext integration for production and quality tracking.
+  </p>
+
+  <ul class="project-features">
+    <li>Automated camera, keyboard, speaker, display, and battery testing</li>
+    <li>Implemented grading workflows for refurbished devices</li>
+    <li>Captured video and image evidence during inspections</li>
+    <li>Integrated QA results with ERPNext through REST APIs</li>
+    <li>Improved traceability and quality compliance processes</li>
+    <li>Reduced manual testing effort through workflow automation</li>
+  </ul>
+
+  <div class="project-tags">
+    <span>Django</span>
+    <span>Python</span>
+    <span>REST API</span>
+    <span>ERPNext</span>
+    <span>JavaScript</span>
+    <span>Quality Assurance</span>
+  </div>
+</div>
+
+<!-- Project 4 -->
+<div class="project-card">
+  <div class="project-header">
+    <span class="project-icon">🚚</span>
+    <h3>E-Commerce & Logistics Integration Platform</h3>
+  </div>
+
+  <p class="project-desc">
+    Built automated ERPNext integrations with e-commerce and logistics
+    platforms to synchronize inventory, automate shipping workflows,
+    generate AWBs, and improve order fulfillment efficiency.
+  </p>
+
+  <ul class="project-features">
+    <li>Integrated Shopify with ERPNext for inventory synchronization</li>
+    <li>Automated order processing and stock updates</li>
+    <li>Implemented ShipRocket integration for shipment creation</li>
+    <li>Generated AWBs and tracking details automatically</li>
+    <li>Optimized courier selection using pricing and location rules</li>
+    <li>Enabled real-time customer shipment notifications</li>
+  </ul>
+
+  <div class="project-tags">
+    <span>ERPNext</span>
+    <span>Frappe</span>
+    <span>Shopify API</span>
+    <span>ShipRocket API</span>
+    <span>Python</span>
+    <span>Integration</span>
+  </div>
+</div>
+  </div>
+</section>
+  <!-- EXPERIENCE -->
+  <section id="experience">
+    <div class="section-label">EXPERIENCE</div>
+    <h2>Work <span class="accent">History</span></h2>
+
+    <div class="timeline">
+
+      <!-- Job 1 -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-connector"></div>
+        <div class="timeline-card">
+          <div class="tc-header">
+            <div>
+              <h3 class="tc-role">Software Engineer</h3>
+              <p class="tc-company">Hybrowlabs Technologies</p>
+            </div>
+            <span class="tc-date">June 2025 — Present</span>
+          </div>
+          <ul class="tc-list">
+            <li>Built a <strong>license management & ticketing module</strong> in ERPNext/Frappe to track government product licenses, automating regulatory workflows with custom dashboards and real-time reporting.</li>
+            <li>Designed <strong>Device History Record (DHR)</strong> for manufactured robots — end-to-end tracking of dispatch, software/hardware installation, surgery lifecycle, and ticket management.</li>
+            <li>Implemented <strong>Electronic Batch Manufacturing Records (E-BMR)</strong> for 40+ finished goods healthcare products, automating manual paperwork through custom production plans, job cards, quality inspections, and approval workflows.</li>
+            <li>Customised ERPNext <strong>buying module</strong> for procurement cycles including EXIM import/export flows and SAP-based fixed asset, CWIP, and grouped asset lifecycle management.</li>
+          </ul>
+          <div class="tc-tags">
+            <span>ERPNext</span><span>Frappe</span><span>Python</span><span>Manufacturing Module</span><span>SAP Integration</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Job 2 -->
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-card">
+          <div class="tc-header">
+            <div>
+              <h3 class="tc-role">Software Engineer</h3>
+              <p class="tc-company">NewJaisa Technologies — Bengaluru</p>
+            </div>
+            <span class="tc-date">Dec 2023 — May 2025</span>
+          </div>
+          <ul class="tc-list">
+            <li>Built a <strong>Django-based QA application</strong> for laptop refurbishment — component-level testing (camera, speaker, keyboard, display), interactive grading, video evidence on remote server, and ERPNext integration via REST API.</li>
+            <li>Developed a <strong>standalone Django + PyQt5 warranty registration app</strong> deployed on sold laptops — self-registration by serial number, ratings, approvals, and real-time sync back to ERPNext.</li>
+            <li>Built <strong>automated ERPNext integrations</strong> with Shopify (real-time inventory sync) and ShipRocket (intelligent delivery partner allocation by location/price/ratings, auto AWB generation, customer notifications).</li>
+          </ul>
+          <div class="tc-tags">
+            <span>Django</span><span>PyQt5</span><span>REST API</span><span>Shopify</span><span>ShipRocket</span><span>ERPNext</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Internship -->
+      <div class="timeline-item">
+        <div class="timeline-dot dim"></div>
+        <div class="timeline-card dim-card">
+          <div class="tc-header">
+            <div>
+              <h3 class="tc-role">Python Full Stack Trainee</h3>
+              <p class="tc-company">PySpiders, Bengaluru</p>
+            </div>
+            <span class="tc-date">June 2023 — Dec 2023</span>
+          </div>
+          <p class="tc-desc">Full-stack training with Python and web development tools. Built personal projects using Django and REST APIs.</p>
+          <div class="tc-tags">
+            <span>Python</span><span>Django</span><span>HTML/CSS</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="section-label">EDUCATION</div>
+    <h2>Academic <span class="accent">Background</span></h2>
+    <div class="edu-card">
+      <div class="edu-icon">🎓</div>
+      <div class="edu-info">
+        <h3>B.E — Mechanical Engineering</h3>
+        <p class="edu-college">Sir M Visvesvaraya Institute of Technology, Bengaluru</p>
+        <p class="edu-year">Aug 2019 — May 2023</p>
+        <div class="edu-cgpa">
+          <span class="cgpa-label">CGPA</span>
+          <span class="cgpa-val">8.9 / 10</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label"> CONTACT</div>
+    <h2>Let's <span class="accent">Connect</span></h2>
+    <p class="contact-sub">Open to new opportunities, collaborations, or just a tech chat.</p>
+    <div class="contact-grid">
+      <a href="mailto:prajwalkrishnappa04@gmail.com" class="contact-card">
+        <span class="contact-icon">✉</span>
+        <span class="contact-label">Email</span>
+        <span class="contact-val">prajwalkrishnappa04@gmail.com</span>
+      </a>
+      <a href="tel:+919448754984" class="contact-card">
+        <span class="contact-icon">📞</span>
+        <span class="contact-label">Phone</span>
+        <span class="contact-val">+91-9448754984</span>
+      </a>
+      <a href="https://github.com/Prajwalkrishnappa04" target="_blank" class="contact-card">
+  <span class="contact-icon">⌥</span>
+  <span class="contact-label">GitHub</span>
+  <span class="contact-val">github.com/Prajwalkrishnappa04</span>
+</a>
+
+<a href="https://www.linkedin.com/in/prajwal04" target="_blank" class="contact-card">
+  <span class="contact-icon">in</span>
+  <span class="contact-label">LinkedIn</span>
+  <span class="contact-val">linkedin.com/in/prajwal04</span>
+</a>
+
+<a href="https://leetcode.com/u/prajwal_04/" target="_blank" class="contact-card">
+  <span class="contact-icon">💻</span>
+  <span class="contact-label">LeetCode</span>
+  <span class="contact-val">leetcode.com/u/prajwal_04</span>
+</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Built by <span class="accent">Prajwal Krishnappa</span> · 2025</p>
+    <p class="footer-sub">Designed to stand out. Deployed on Vercel.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
